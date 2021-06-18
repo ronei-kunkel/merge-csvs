@@ -49,8 +49,8 @@ $arquivo = fopen('merge.csv', 'w');
 try {
     foreach ($unificado as $linha) {
         fputcsv($arquivo, $linha);
-        echo "Seu arquivo foi gerado com sucesso com o nome de 'merge.csv'";
     }
+    echo "Seu arquivo foi gerado com sucesso com o nome de 'merge.csv'";
 } catch (Exception $e) {
         echo "Houve algum erro durante o processo. Pode ser que o arquivo 'merge.csv' tenha sido gerado, mas em branco. <br />
         Aguarde um pouco e tente novamente." . $e ? " Mensagem de erro, se houver: ".$e : "";
