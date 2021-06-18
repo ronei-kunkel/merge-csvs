@@ -1,0 +1,1 @@
+only paste this script into a folder on your server with your .csv files and run it
